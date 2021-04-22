@@ -1,0 +1,32 @@
+{
+    "name": "StaticStackQueue",
+    "version": "0.0.1",
+    "description": "Pure and generic C queue and stack without dynamic memory.",
+    "keywords": "Stack, Queue, Stack memory, static",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/username/hello-world.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Luis Lopez",
+        "email": "no-mail@nomail.com",
+        "url": "-"
+      },
+      {
+        "name": "Pablo Soligo",
+        "email": "psoligo@unlam.edu.ar",
+        "url": "https://gidsa.edu.ar",
+        "maintainer": true
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://gidsa.edu.ar",
+    "dependencies": {
+      "ownername/print": "~1.3.0"
+    },
+    "frameworks": "*",
+    "platforms": "*"
+  }
