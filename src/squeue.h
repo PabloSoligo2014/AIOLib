@@ -14,7 +14,6 @@ typedef struct{
 }tsqueue;
 
 void queueCreate(tsqueue* squeue);
-
 int queueIsFull(const tsqueue* squeue, size_t asize);
 int queueIsEmpty(const tsqueue* squeue);
 int queuePush(tsqueue* squeue, const void* data, size_t asize);

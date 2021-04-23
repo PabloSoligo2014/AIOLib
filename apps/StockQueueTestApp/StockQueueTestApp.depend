@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1619128713 source:c:\users\pabli\git\aiolib\staticstackqueue\apps\stockqueuetestapp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../src/sstack.h"
+	"../../src/squeue.h"
+
+1619128713 source:c:\users\pabli\git\aiolib\staticstackqueue\src\sstack.c
+	"sstack.h"
+	"utils.h"
+
+1619128713 c:\users\pabli\git\aiolib\staticstackqueue\src\sstack.h
+	<stdint.h>
+
+1619128713 source:c:\users\pabli\git\aiolib\staticstackqueue\src\sstack.cpp
+	"sstack.h"
+	"utils.h"
+
+1619128713 c:\users\pabli\git\aiolib\staticstackqueue\src\utils.h
+	<stdlib.h>
+
+1619128713 source:c:\users\pabli\git\aiolib\staticstackqueue\src\utils.c
+	"utils.h"
+	<stdint.h>
+
+1619127754 source:c:\users\pabli\git\aiolib\staticstackqueue\src\squeue.c
+	"squeue.h"
+	"utils.h"
+
+1619128713 c:\users\pabli\git\aiolib\staticstackqueue\src\squeue.h
+	<stdlib.h>
+	<stdint.h>
+
+1619131991 source:c:\users\pabli\git\aiolib\staticstackqueue\src\squeue.cpp
+	"squeue.h"
+	"utils.h"
+
+1619128713 source:c:\users\pabli\git\aiolib\staticstackqueue\src\utils.cpp
+	"utils.h"
+	<stdint.h>
+
+1619184302 source:c:\users\pabli\git\aiolib\staticstackqueue\src\tstack.cpp
+	"TStack.h"
+	"utils.h"
+
+1619184145 c:\users\pabli\git\aiolib\staticstackqueue\src\tstack.h
+	<stdint.h>
+

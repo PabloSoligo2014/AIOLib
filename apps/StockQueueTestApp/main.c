@@ -3,6 +3,7 @@
 #include <string.h>
 #include "../../src/sstack.h"
 #include "../../src/squeue.h"
+
 int main()
 {
     float vec[] = {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0};

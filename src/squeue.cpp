@@ -74,7 +74,7 @@ int queuePop(tsqueue* squeue, void* data, size_t asize){
     }
 
     if((_endPart=fsize-_firstPart)!=0){
-        _memcpy(data+_firstPart, squeue->squeue, _endPart);
+        _memcpy((uint8_t*)data+_firstPart, squeue->squeue, _endPart);
     }
     //TODO pasar a usar operador modulo
     squeue->start = (squeue->start+asize)%QSIZE;
@@ -108,7 +108,7 @@ int queuePeek(tsqueue* squeue, void* data, size_t asize){
     }
 
     if((_endPart=fsize-_firstPart)!=0){
-        _memcpy(data+_firstPart, squeue->squeue, _endPart);
+        _memcpy((uint8_t*)data+_firstPart, squeue->squeue, _endPart);
     }
     return 1;
 
